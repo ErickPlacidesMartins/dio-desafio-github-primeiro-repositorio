@@ -32,10 +32,82 @@ whatsapp, skype , msg 92%
 
 facebook, Snapchat 76%
 
-
-
-O que são redes?
-
-2 ou mais computadores ligados
-
 Tipo de provedores de serviços: Dial-up, ADSL, Fibra ótica, Rádio, Satélite, Móvel, P2P = pear to pear.
+
+TCP =Transmission Control Protocol
+camadas (Fisica-placa de rede/ Rede -IP/ Transporte-TCP,UDP/ 
+Aplicação- ftp, http).
+
+UDP- Rápido , não confiável.(live stream)
+
+TCP- Voltado a conexão, integridade e ordem dos dados.(aplicativos de texto)
+
+Portas ou "ports" são os lçocais onde os dados sairão e chegarão
+20- FTP
+22- SSH
+25- emails
+53- DNS
+80- HTTP requisão simples
+443- HTTPS requisão segura
+
+Modem - modulator-demodulator
+Hardware que converte os dados para um formato que possa ser transmitido
+
+Roteador - Distruibui para 1 ou mais dispositivos de uma rede
+
+Switch - Distribui para 1 ou mais dispositivos de forma ordenada e somente para o solicitante
+
+Ports do Apache- 443
+Ports do MySQL- 3306
+
+Dados móveis - Quando o celular esta ligado ele troca bits com as torres, com isso o SMS vai de carona e não possui custo, depois surgiu o MMS com dados mais largos ex.foto
+1G analógico 10Kbps
+2G 97Kbps
+GPRS 32 a 80 Kbps dividia o caminho entre dados e voz
+EDGE 128 a 236 Kbps
+3G 7Mbps/ 4G 221Mbps/ 5G 10Gbps 
+
+WIFI - Segurança 
+WEP fornece chaves de 64bits e de 128bits
+WPA Chave trocada periodicamente
+WPA2 802.11i + segurança + processamento
+
+Dispositivos que pode ser ligados na rede - Impressora/ Scanner/Chromecast
+
+
+
+Bluetooth - conexão pontro a ponto e indenpende de internet
+
+classes - 1 100mW = 100mts/ 2 2,5mW =10mts/ 3 1mW = 1mts
+Versões 1.2 = 1mbps/ 2.0 = 3mbps / 3.0 = 24Mbps ainda esta no mercado / 4.0 = 25mbps/ 5.0 =50mbps
+
+
+Browser ou Navegador 
+
+Para ver um site você precisa de um programa para interpretar as linguagens de programação, linguagem de marcação de texto, este é o Browser
+Cache rastros que você deixa após entrar em sites 
+Cookies rastro que o site deixa no computador e são usados para te trazer o que procurar 
+
+Página estática -  pouca interação
+Página dinâmica - diversas interações ao mesmo tempo e funcionalidades
+
+Local para ver os sites  antigos dos  famosos de hoje em dia
+http://archive.org/web/ 
+
+
+Site -  página internet para diversos propósitos 
+
+Aplicativo - Software que é executado no navegador e tambem como aplicativo nos dispositivos móveis/ a diferença entre programa,software e aplicativo esta sumindo.
+
+E-Commerce - Site de compra e venda com *sistema de pagamento*, este ultimo pode ser exterior ao site  
+
+WebServe = estático ( servido físico) ou dinâmico (Software que esta aplication server , banco de dados)
+O banco de dados precisa estar no servidor, ex Webservice (interface disponível para consultas, ex correios/Governo)
+
+Stacks - Pilhas de Tecnologias  para executar um aplicativo/programa ( linguagens , banco de dados, limite de conhecimento dos DEV)
+
+Front-End = parte da frente (site, software, aplicativo, webservice, UI,UX, HTML,CSS, Jquery,JS,Ajax)
+Back-End = Servidor, banco de dados, interface entre front e back, MySQL, JAva, Node.Js
+Full Stack = que saiba trabalhar em ambos desenvolvimentos.
+
+Principais LPs = Marcação HTML/CSS , LP - JS/PHP/>net/ ASP/JAVA/ Ruby/ Python/ Perl/ C/ C++/ C#
