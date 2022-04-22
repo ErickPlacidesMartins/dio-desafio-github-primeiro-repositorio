@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Flex Basis</title>
+    <style>
+        .flex-container{
+            border: 2px solid black;
+            max-width: 500px;
+            display: flex;
+        }
+
+        .item{
+            background-color: rgb(255, 81, 0);
+            margin:5px;
+            text-align: center;
+            color:white
+        }
+
+        .bauto{
+            flex-basis: auto;
+        }
+
+        .b1{
+            flex-basis: 0;
+        }
+
+        .bw{
+            flex-basis: 100px;
+        }
+
+        .fg1{
+
+            flex-grow: 1;
+        }
+
+        .fg2{
+
+flex-grow: 2;
+}
+
+    </style>
+</head>
+<body>
+    <h1>flex basis auto</h1>
+    <section class="flex-container">
+        <div class="item bauto fg1">1</div>
+        <div class="item bauto fg1">22222</div>
+        <div class="item bauto fg1">3</div>
+        <div class="item bauto fg2">422</div>
+    </section>
+
+    <h1>flex basis 0</h1>
+    <section class="flex-container">
+        <div class="item b1 fg1">11</div>
+        <div class="item b1 fg1">222</div>
+        <div class="item b1 fg1">333</div>
+        <div class="item b1 fg1">422</div>
+    </section>
+
+    <h1>flex basis + width</h1>
+    <section class="flex-container">
+        <div class="item bw fg1">11</div>
+        <div class="item bw fg1">222</div>
+        <div class="item bw fg1">333</div>
+        <div class="item bw fg1">422</div>
+    </section>
+    
+</body>
+</html>

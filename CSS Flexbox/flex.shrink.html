@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos flex shrink</title>
+</head>
+
+<style>
+    .flex-container{
+        display:flex;
+        border: 1px solid black;
+        max-width: 350px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .item{
+        background-color: orange;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .s1{
+        flex-shrink: 1;
+    }
+
+    .g1{
+        flex-grow: 1;
+    }
+
+    .s0{
+        flex-shrink: 0;
+    }
+
+    .g2{
+        flex-grow: 2;
+    }
+
+</style>
+<body>
+    <h1></h1>
+    <section>
+        <h1>shrink 1 flex grow 1</h1>
+        <div class="flex-container">
+            <div class="item s1 g1">1</div>
+            <div class="item s1 g1">2</div>
+            <div class="item s1 g1">3</div>
+            <div class="item s1 g1">4</div>
+            <div class="item s1 g1">5</div>                
+        </div>
+    </div>
+<br>
+<h1>shrink 1 flex grow 1</h1>
+    <div class="flex-container">
+            <div class="item s1 g1">1</div>
+            <div class="item s1 g1">2</div>
+            <div class="item s1 g1">cbsdahgvbfghfvbk</div>
+            <div class="item s1 g1">4</div>
+            <div class="item s1 g1">5</div>                
+        </div>
+    </div>
+
+    <br>
+    <h1>shrink 0 flex grow 2</h1>
+    <div class="flex-container">
+            <div class="item s0 g2">1</div>
+            <div class="item s0 g2">2</div>
+            <div class="item s0 g2">cbsdahgvbfghfvbk</div>
+            <div class="item s0 g2">4</div>
+            <div class="item s0 g2">5</div>                
+        </div>
+    </div>
+    </section>
+    
+</body>
+</html>

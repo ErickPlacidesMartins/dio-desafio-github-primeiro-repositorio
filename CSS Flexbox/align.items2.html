@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align Items2</title>
+    <style>
+        .container{
+        height:400px;
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        }
+
+        .item{
+            background-color: orange;
+            padding: 0 5px;
+            flex:1;
+            text-align: center;
+            color:white;
+            margin:5px;
+            border: 2px solid  black;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-betwenn{
+            align-content: space-between;
+        }
+
+        .center{
+            align-content: center;
+                }
+
+    </style>
+</head>
+<body>
+    <h1>Stretch</h1>
+    <section class="container strecth">
+        <div class="item">Contrary to popular belief, Lorem Ipsum is not simply</div>
+        <div class="item">Contrary to popular belief, Lorem</div>
+        <div class="item">Contrary to popular belief, Lorem Ipsum</div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+    </section>
+
+    <h1>Center</h1>
+    <section class="container center">
+        <div class="item">Contrary to popular belief, Lorem Ipsum is not simply</div>
+        <div class="item">Contrary to popular belief, Lorem</div>
+        <div class="item">Contrary to popular belief, Lorem Ipsum</div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+    </section>
+
+    <h1>Flex-End</h1>
+    <section class="container flex-end">
+        <div class="item">Contrary to popular belief, Lorem Ipsum is not simply</div>
+        <div class="item">Contrary to popular belief, Lorem</div>
+        <div class="item">Contrary to popular belief, Lorem Ipsum</div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+    </section>
+
+    <h1>Flex-start</h1>
+    <section class="container flex-start">
+        <div class="item">Contrary to popular belief, Lorem Ipsum is not simply</div>
+        <div class="item">Contrary to popular belief, Lorem</div>
+        <div class="item">Contrary to popular belief, Lorem Ipsum</div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+    </section>
+
+    <h1>Space-around</h1>
+    <section class="container space-around">
+        <div class="item">Contrary to popular belief, Lorem Ipsum is not simply</div>
+        <div class="item">Contrary to popular belief, Lorem</div>
+        <div class="item">Contrary to popular belief, Lorem Ipsum</div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+    </section>
+
+    <h1>Space-betwenn</h1>
+    <section class="container space-betwenn">
+        <div class="item">Contrary to popular belief, Lorem Ipsum is not simply</div>
+        <div class="item">Contrary to popular belief, Lorem</div>
+        <div class="item">Contrary to popular belief, Lorem Ipsum</div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+        <div class="item">Contrary to popular belief, Lorem  </div>
+    </section>
+
+    
+</body>
+</html>
