@@ -1,4 +1,4 @@
-#Este repositório foi desenvolvido conforme solicitação desafio DIO, adicionamos tambem pastas e atividades referentes o curso HTML5/CSS3 e Flexbox do curso Spread Fullstack DIO 2022.
+Este repositório foi desenvolvido conforme solicitação desafio DIO, adicionamos também pastas e atividades referentes o curso HTML5/CSS3/ Flexbox do curso Spread Fullstack DIO 2022.
 
 # Repositório de Desafio de Projeto sobre Git/GitHub da DIO
 Repositório criado para o Desafio de Projetos
